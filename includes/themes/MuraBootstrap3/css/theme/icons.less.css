@@ -1,0 +1,110 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.affix {
+  position: fixed;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-before {
+  margin-right: .25em;
+  color: #428bca;
+}
+.mura-favorites-list h2:before {
+  font-family: "FontAwesome";
+  margin: 0 10px 0 0;
+  content: "\f004";
+}
+.mura-favorites-list .mura-favorite-list li a.remove:before {
+  font-family: "FontAwesome";
+  margin: 0 5px 0 0;
+  content: "\f056";
+}
+.mura-page-tools h2:before {
+  font-family: "FontAwesome";
+  margin: 0 10px 0 0;
+  content: "\f0ad";
+}
+.mura-page-tools .mura-add-favorite a:before {
+  font-family: "FontAwesome";
+  margin: 0 5px 0 0;
+  content: "\f055";
+}
+.mura-page-tools .mura-print a:before {
+  font-family: "FontAwesome";
+  margin: 0 5px 0 0;
+  content: "\f02f";
+}
+#navEditProfile a:before {
+  font-family: "FontAwesome";
+  margin: 0 5px 0 0;
+  content: "\f007";
+}
+#navLogout a:before {
+  font-family: "FontAwesome";
+  margin: 0 5px 0 0;
+  content: "\f08b";
+}
+.mura-search-results .navNext a:after {
+  font-family: "FontAwesome";
+  margin: 0 0 0 5px;
+  content: "\f101";
+}
+.mura-search-results .navPrev a:before {
+  font-family: "FontAwesome";
+  margin: 0 5px 0 0;
+  content: "\f100";
+}
+.mura-search-again button:before {
+  font-family: "FontAwesome";
+  margin: 0 5px 0 0;
+  content: "\f002";
+}
+.navbar-form button[submit]:before {
+  font-family: "FontAwesome";
+  margin: 0 5px 0 0;
+  content: "\f002";
+}
